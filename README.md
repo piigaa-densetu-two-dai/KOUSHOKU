@@ -13,6 +13,9 @@ PC-6001mk2/PC-6601用 640x480/HSYNC 31kHz/VSYNC 60Hzに変換
 * koushoku-640x400.uf2  
 PC-6001mk2/PC-6601用 640x400/HSYNC 31kHz/VSYNC 70Hzに変換  
 
+* koushoku-640x400_24khz.uf2  
+PC-6001mk2/PC-6601用 640x400/HSYNC 24kHz/VSYNC 56Hzに変換  
+
 * koushoku_sr-640x480.uf2  
 PC-6001mk2SR/PC-6601SR用 640x480/HSYNC 31kHz/VSYNC 60Hzに変換  
 横640ドットモードに対応していません。  
@@ -21,7 +24,11 @@ PC-6001mk2SR/PC-6601SR用 640x480/HSYNC 31kHz/VSYNC 60Hzに変換
 PC-6001mk2SR/PC-6601SR用 640x400/HSYNC 31kHz/VSYNC 70Hzに変換  
 横640ドットモードに対応していません。縦204ラインモード時は上下の各2ラインが表示されません。  
 
-640x400モードは一般的でないのでモニターにより相性が出やすいです。
+* koushoku_sr-640x400_24khz.uf2  
+PC-6001mk2SR/PC-6601SR用 640x400/HSYNC 24kHz/VSYNC 56Hzに変換  
+横640ドットモードに対応していません。縦204ラインモード時は上下の各2ラインが表示されません。  
+
+640x400モードの表示には対応モニターが必要です。
 
 # ファームウェア書き込み方法
 RaspberryPiPicoボードの動作確認を兼ねて組立前に書込みを行なう事をお勧めします。  
